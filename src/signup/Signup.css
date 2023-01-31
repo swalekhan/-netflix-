@@ -1,0 +1,31 @@
+
+
+.signup-screen{
+    /* text-align: center; */
+    background-color: rgba(0, 0, 0, 0.906);
+    max-width: 300px;
+    /* border: 2px solid red; */
+    padding: 40px 70px;
+}
+.signup-screen form{
+    display: flex;
+    flex-direction: column;
+}
+.signup-screen form input{
+    outline: 0;
+    border: 0;
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.signup-screen form button{
+    height: 40px;
+    margin-bottom: 15px;
+    padding: 5px 15px;
+    border-radius: 5px; 
+    color: white;
+    background-color: rgb(205, 24, 24);
+    cursor: pointer;
+}
